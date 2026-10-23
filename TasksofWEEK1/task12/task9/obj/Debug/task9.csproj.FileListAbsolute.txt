@@ -1,0 +1,7 @@
+D:\OOP\Lab\tasks\task9\task9\bin\Debug\task9.exe.config
+D:\OOP\Lab\tasks\task9\task9\bin\Debug\task9.exe
+D:\OOP\Lab\tasks\task9\task9\bin\Debug\task9.pdb
+D:\OOP\Lab\tasks\task9\task9\obj\Debug\task9.csproj.AssemblyReference.cache
+D:\OOP\Lab\tasks\task9\task9\obj\Debug\task9.csproj.CoreCompileInputs.cache
+D:\OOP\Lab\tasks\task9\task9\obj\Debug\task9.exe
+D:\OOP\Lab\tasks\task9\task9\obj\Debug\task9.pdb

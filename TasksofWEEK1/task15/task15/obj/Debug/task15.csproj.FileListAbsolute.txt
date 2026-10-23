@@ -1,0 +1,7 @@
+D:\OOP\Lab\tasks\task15\task15\bin\Debug\task15.exe.config
+D:\OOP\Lab\tasks\task15\task15\bin\Debug\task15.exe
+D:\OOP\Lab\tasks\task15\task15\bin\Debug\task15.pdb
+D:\OOP\Lab\tasks\task15\task15\obj\Debug\task15.csproj.AssemblyReference.cache
+D:\OOP\Lab\tasks\task15\task15\obj\Debug\task15.csproj.CoreCompileInputs.cache
+D:\OOP\Lab\tasks\task15\task15\obj\Debug\task15.exe
+D:\OOP\Lab\tasks\task15\task15\obj\Debug\task15.pdb

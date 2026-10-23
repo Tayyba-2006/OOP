@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP\\Lab\\tasks\\task7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1C0557-BAD3-47F5-AB29-FA44C61B269C}|task7\\task7.csproj|d:\\oop\\lab\\tasks\\task7\\task7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1C0557-BAD3-47F5-AB29-FA44C61B269C}|task7\\task7.csproj|solutionrelative:task7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OOP\\Lab\\tasks\\task7\\task7\\Program.cs",
+              "RelativeDocumentMoniker": "task7\\Program.cs",
+              "ToolTip": "D:\\OOP\\Lab\\tasks\\task7\\task7\\Program.cs",
+              "RelativeToolTip": "task7\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T12:11:59.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

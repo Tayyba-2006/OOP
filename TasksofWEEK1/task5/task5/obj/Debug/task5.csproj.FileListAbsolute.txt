@@ -1,0 +1,7 @@
+D:\OOP\Lab\tasks\task5\task5\bin\Debug\task5.exe.config
+D:\OOP\Lab\tasks\task5\task5\bin\Debug\task5.exe
+D:\OOP\Lab\tasks\task5\task5\bin\Debug\task5.pdb
+D:\OOP\Lab\tasks\task5\task5\obj\Debug\task5.csproj.AssemblyReference.cache
+D:\OOP\Lab\tasks\task5\task5\obj\Debug\task5.csproj.CoreCompileInputs.cache
+D:\OOP\Lab\tasks\task5\task5\obj\Debug\task5.exe
+D:\OOP\Lab\tasks\task5\task5\obj\Debug\task5.pdb

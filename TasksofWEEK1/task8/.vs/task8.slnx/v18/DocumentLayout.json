@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP\\Lab\\tasks\\task8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E63C93-5D8C-4724-8EEF-079F8DC0BB62}|task8\\task8.csproj|d:\\oop\\lab\\tasks\\task8\\task8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E63C93-5D8C-4724-8EEF-079F8DC0BB62}|task8\\task8.csproj|solutionrelative:task8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OOP\\Lab\\tasks\\task8\\task8\\Program.cs",
+              "RelativeDocumentMoniker": "task8\\Program.cs",
+              "ToolTip": "D:\\OOP\\Lab\\tasks\\task8\\task8\\Program.cs",
+              "RelativeToolTip": "task8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T12:21:03.008Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
