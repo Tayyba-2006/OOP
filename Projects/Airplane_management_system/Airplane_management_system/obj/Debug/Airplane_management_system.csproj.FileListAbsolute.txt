@@ -1,0 +1,7 @@
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\bin\Debug\Airplane_management_system.exe.config
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\bin\Debug\Airplane_management_system.exe
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\bin\Debug\Airplane_management_system.pdb
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\obj\Debug\Airplane_management_system.csproj.AssemblyReference.cache
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\obj\Debug\Airplane_management_system.csproj.CoreCompileInputs.cache
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\obj\Debug\Airplane_management_system.exe
+D:\OOP\Lab\Projects\Airplane_management_system\Airplane_management_system\obj\Debug\Airplane_management_system.pdb
