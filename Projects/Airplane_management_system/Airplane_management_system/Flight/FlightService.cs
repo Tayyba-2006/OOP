@@ -19,7 +19,7 @@ namespace Airplane_management_system.Flight
             _historyService = hs;
         }
 
-        // READ: Get all flights
+        // READ: Get all FLIGHTS
         public List<FlightModel> GetAllFlights()
         {
             return _flightRepo.LoadData();
