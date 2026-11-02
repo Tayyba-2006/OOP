@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Airplane_management_system.History;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Airplane_management_system.History;
 
 namespace Airplane_management_system.Flight
 { 
@@ -63,7 +64,8 @@ namespace Airplane_management_system.Flight
                 Console.WriteLine("4 Delete Flight");
                 Console.WriteLine("5 Sort Flights");
                 Console.WriteLine("6 History");
-                Console.WriteLine("7 Logout");
+                Console.WriteLine("7 Search and Filter");
+                Console.WriteLine("8 Logout");
 
                 Console.Write("Choose option: ");
                 string opt = Console.ReadLine();
@@ -90,8 +92,12 @@ namespace Airplane_management_system.Flight
 
                 else if (opt == "6")
                     _historyUI.ShowHistory();
-
                 else if (opt == "7")
+                {
+                    SearchAndFilter();
+                }
+
+                else if (opt == "8")
                     break;
 
                 else
@@ -250,6 +256,131 @@ namespace Airplane_management_system.Flight
                 Console.WriteLine("\nUpdate failed! Check duplicate ID or seat count.");
 
             Console.ReadKey();
+        }
+
+        // Search And Filter
+        public void SearchAndFilter()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("========== Search and Filter ==========");
+                Console.WriteLine("1 Partial Match");
+                Console.WriteLine("2 Numeric Range");
+                Console.WriteLine("3 Excat Match");
+                Console.WriteLine("4 Exit");
+
+
+                Console.Write("Choose option: ");
+                string opt = Console.ReadLine();
+
+
+                if (opt == "1")
+                 partialMatch();
+                if (opt == "2") 
+                {
+                    NumericRange();
+                }
+
+                if (opt == "3") 
+                
+                    ExcatMatch();
+
+                
+
+                else if (opt == "4")
+                    break;
+
+                else
+                {
+                    Console.WriteLine("Wrong option!");
+                    Console.ReadKey();
+                }
+            }
+        }
+
+        // Partial Match
+        public void partialMatch()
+        {
+            Console.Clear();
+           
+            
+            Console.Write("Enter few letters: ");
+
+            string letters = Console.ReadLine();
+
+            List<FlightModel> flights =
+               _flightService.GetAllFlights();
+            bool found = false;
+
+            foreach (FlightModel f in flights)
+            {
+                
+                if (f.FlightID.Contains(letters))
+                {
+                    Console.WriteLine("\nFlight ID: " + f.FlightID);
+                    found = true;
+                }
+            }
+
+            if (found == false)
+            {
+                Console.WriteLine("No matching flight found!");
+            }
+
+            Console.WriteLine("\nPress any key...");
+            Console.ReadKey();
+
+        }
+
+        
+        // Numeric Range 
+          public void NumericRange()
+        {
+            Console.Write("Enter a minimum number of TotalSeats: ");
+            int min = int.Parse(Console.ReadLine());
+            Console.Write("Enter a maximum number of TotalSeats: ");
+            int max = int.Parse(Console.ReadLine());
+
+            List<FlightModel> flights =
+              _flightService.GetAllFlights();
+
+            foreach (FlightModel f in flights)
+            {
+                if (f.TotalSeats == min || f.TotalSeats == max)
+                {
+                    Console.WriteLine("\nTotal Seats: " + f.TotalSeats + " of FlightID: " + f.FlightID);
+                }
+            }
+            Console.WriteLine("\nPress any key...");
+            Console.ReadKey();
+
+        }
+
+        
+        //  Excat Match
+        public void ExcatMatch()
+        {
+
+          
+            Console.Write("Enter a FlightID: ");
+
+            string ID = Console.ReadLine();
+
+            List<FlightModel> flights = _flightService.GetAllFlights();
+            foreach (FlightModel f in flights)
+            {
+
+                Console.WriteLine("\nFlight ID: " + f.FlightID);
+                if (f.FlightID == ID)
+                {
+                    Console.WriteLine("\nFlight ID: " + f.FlightID);
+
+                }
+            }
+            Console.WriteLine("\nPress any key...");
+            Console.ReadKey();
+
         }
 
         // DELETE: DELETE FLIGHT

@@ -38,6 +38,7 @@ namespace Airplane_management_system.Booking
                 Console.Write("Choose option: ");
                 string opt = Console.ReadLine();
 
+               
                 if (opt == "1")
                     _flightUI.ViewFlights();
 
